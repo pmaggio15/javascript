@@ -5,3 +5,8 @@ console.log (arr[0])
 
 // Las element of array;
 console.log(arr[arr.length - 1])
+
+//Add element onto end of array
+arr.push (200)
+
+console.log (arr);
