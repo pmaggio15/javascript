@@ -1,11 +1,9 @@
-// DRY - DONT REPEAT YOURSELF 
-
-// Funciton Definition
-function welcomePersonToFES (firstName, lastName) {
-    console.log (`Welcome to Frontend Simplified, ${firstName} ${lastName}`)
+function convertCelsiusToFahrenheit(celsius) {
+  return celsius * 1.8 + 32
 }
 
-// Call the Function
-welcomePersonToFES ('Paige' , 'Maggio');
-welcomePersonToFES ('Mirtri', 'Sam');
-welcomePersonToFES ('David' , 'Bragg');
+const convertCelsiusToFahrenheit = (celsius) => {
+    return celsius * 1.8 + 32
+}
+
+console.log (convertCelsiusToFahrenheit (0))
