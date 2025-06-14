@@ -1,5 +1,11 @@
-const str = "Frontend Simplified"
+// DRY - DONT REPEAT YOURSELF 
 
-for (let i = 0; i < str.length; ++i) {
-    console.log (str[i]);
+// Funciton Definition
+function welcomePersonToFES (firstName, lastName) {
+    console.log (`Welcome to Frontend Simplified, ${firstName} ${lastName}`)
 }
+
+// Call the Function
+welcomePersonToFES ('Paige' , 'Maggio');
+welcomePersonToFES ('Mirtri', 'Sam');
+welcomePersonToFES ('David' , 'Bragg');
